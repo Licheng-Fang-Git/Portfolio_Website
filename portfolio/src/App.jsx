@@ -4,6 +4,8 @@ import Services from './pages/Services';
 import ReviewForm from './pages/ReviewForm';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/review" element={<ReviewForm />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </main>
       </div>
